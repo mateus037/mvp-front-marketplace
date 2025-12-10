@@ -21,8 +21,8 @@ npm run dev
 
 ## Docker
 ```bash
-docker build -t frontend .
-docker run -p 5173:5173 frontend
+docker build -t mvp-front-marcketplace .
+docker run -p 5173:5173 mvp-front-marcketplace
 ```
 
 ## Docker Compose

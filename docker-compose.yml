@@ -45,11 +45,11 @@ services:
     command: >
       sh -c "npx prisma db push && npm run dev"
 
-  frontend:
-    build: ../mvp-front-marcketplace
-    container_name: frontend
+  mvp-front-marcketplace:
+    build: .
+    container_name: mvp-front-marcketplace
     volumes:
-      - ./frontend:/app
+      - .:/app
       - /app/node_modules
     ports:
       - "5173:5173"

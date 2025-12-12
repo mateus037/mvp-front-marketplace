@@ -21,8 +21,8 @@ npm run dev
 
 ## Docker
 ```bash
-docker build -t mvp-front-marcketplace .
-docker run -p 5173:5173 mvp-front-marcketplace
+docker build -t mvp-front-marketplace .
+docker run -p 5173:5173 mvp-front-marketplace
 ```
 
 ## Docker Compose
